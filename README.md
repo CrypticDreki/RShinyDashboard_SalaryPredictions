@@ -5,7 +5,7 @@ This project utilizes a R Shiny Dashboard to create interactive visualizations b
 # Why?
 Currently I am a graduate student who is near graduation. Our entire program is in the job market, which can be complex and confusing. A large part of finding jobs is also finances, and ensuring that a company is willing to pay you an accurate salary for your experience. I want students to be able to find out salary insights about their job and favorite companies.
 
-* what insights am I looking for?
+* What insights am I looking for?
   
   * What companies pay more, and what jobs have higher salaries?
   
@@ -15,7 +15,7 @@ Currently I am a graduate student who is near graduation. Our entire program is 
 
 # Data Used
 The dataset was found on Kaggle called "Data Science and STEM Salaries" uploaded by Jack Ogozaly.
-* link to the dataset: https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries 
+* Link to the dataset: https://www.kaggle.com/datasets/jackogozaly/data-science-and-stem-salaries 
 
 It was scraped from Levels.fyi and contained more than 62,000 salaries for a variety of job titles and companies. It also includes demographics such as race, sex, education; as well as years of experience in general and then more specifically at the particular company the job was at. This data was chosen due to its relevance to the Masters of Science in Business Analytics students and their job searching.
 
@@ -306,7 +306,7 @@ While this interactive adventure is supposed to be more personalized findings fo
 
 * Over time, salaries have gone up for a majority of companies and roles
 
-* The salary prediction runs high As with 0 years of experience as a data analyst, the model believes I can earn around 114 thousand dollars a year. Sadly the high salaries seem a constant for the original data, and not the fault of the XGBoost model. However further tweaking could perhaps increase accuracy
+* The salary prediction runs high. As with 0 years of experience as a data analyst, the model believes I can earn around 114 thousand dollars a year. Sadly the high salaries seem a constant for the original data, and not the fault of the XGBoost model. However further tweaking could perhaps increase accuracy
 
 * For the salary prediction there were variables that influence salary which shouldn't: such as gender and race. 
 
